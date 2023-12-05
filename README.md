@@ -1,3 +1,42 @@
+## Blogging Site Documentation
+---
+### Steps:
+1. Install Dependencies:
+Run the following command to install the project dependencies using Composer:
+```
+composer install
+```
+2. Setup the .env file to configure your database connection and other settings.
+ Generate Application Key:
+Run the following command to generate a unique application key:
+```
+php artisan key:generate
+```
+3. Install npm Packages:
+Install the necessary npm packages for the front-end assets:
+```
+npm install
+```
+4. Run npm dev:
+Compile and build the front-end assets:
+```
+npm run dev
+```
+5. Run Migrations:
+```
+php artisan migrate
+```
+6. Run Seeder
+```
+php artisan db:seed
+```
+
+8. Start the Development Server:
+Launch the Laravel development server:
+```
+php artisan serve
+```
+---
 
 ## Screenshots
 Blog Listing
